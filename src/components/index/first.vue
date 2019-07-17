@@ -224,6 +224,9 @@
 	.mint-swipe-items-wrap{
 		padding-bottom: 63%;
 	}
+	a{
+		text-decoration: none;
+	}
 </style>
 <style scoped>
 	#lunbo_box{
