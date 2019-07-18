@@ -34,18 +34,27 @@
 		   <!--轮播-->
 			<div id="act_lunbo">
 				<mt-swipe :auto="4000">
+				
 						<mt-swipe-item>
-								<img src="../../assets/img/act_lunbo01.jpg"/>
-								<a href="">【活动花絮】佳能专区-3月24日-人像篇创作之美</a> 
+							<router-link to="/photos"></router-link>
+							<img src="../../assets/img/act_lunbo01.jpg"/>
+							<p>【活动花絮】佳能专区-3月24日-人像篇创作之美</p> 
 						</mt-swipe-item>
+					
 						<mt-swipe-item>
+							<router-link to="/photos"></router-link>
 							<img src="../../assets/img/act_lunbo02.jpg"/>
-							<a href="">佳能专区——复古人像创作活动花絮 </a>	
+							<p>佳能专区——复古人像创作活动花絮 </p>	
 						</mt-swipe-item>
+					
+					
 						<mt-swipe-item>
+							<router-link to="/photos"></router-link>
 							<img src="../../assets/img/act_lunbo03.jpg"/>
-							<a href="">专业单反的实力见证——EOS试用活动招募啦！~</a>
+							<p>专业单反的实力见证——EOS试用活动招募啦！~</p>
 						</mt-swipe-item>
+					
+					
 				</mt-swipe>
 			</div>
 			<!---->
@@ -168,7 +177,7 @@
 		left: 0;
 		bottom: 0;
 	}
-	.mint-swipe-indicators {
+	#act_lunbo .mint-swipe-indicators {
     position: absolute;
     bottom: 10px;
     left:88%;
@@ -250,6 +259,11 @@
 		height: auto;
 	}
 	.mint-swipe-item>a{
+		position: absolute;
+		width: 100%;
+		padding-bottom:  43.47%;
+	}
+	.mint-swipe-item>p{
 		color: white;
 		position: absolute;
 		display: block;

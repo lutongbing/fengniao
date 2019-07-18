@@ -9,30 +9,34 @@
 		<div id="lunbo_box">
 			<mt-swipe :auto="4000">
 					<mt-swipe-item>
+							<router-link to="/photos"></router-link>
 							<img src="../../assets/img/lunbo_01.jpg"/>
-							<a href="">Honda Gold Wing青海湖之旅</a> 
+							<p>Honda Gold Wing青海湖之旅</p> 
 					</mt-swipe-item>
 					<mt-swipe-item>
+						<router-link to="/photos"></router-link>
 						<img src="../../assets/img/lunbo_02.jpg"/>
-						<a href="">
+						<p>
 							"神笔马良"修复破旧老照片 
-						</a>	
+						</p>	
 					</mt-swipe-item>
 					<mt-swipe-item>
+						<router-link to="/photos"></router-link>
 						<img src="../../assets/img/lunbo_03.jpg"/>
-						<a href="">
+						<p>
 							尼康日本工厂参观
-						</a>
+						</p>
 					</mt-swipe-item>
 					<mt-swipe-item>
+						<router-link to="/photos"></router-link>
 						<img src="../../assets/img/lunbo_04.jpg"/>
-						<a href="">
+						<p>
 							用摄影书写心情
-						</a>
+						</p>
 					</mt-swipe-item>
 					<mt-swipe-item>
+						<router-link to="/photos"></router-link>
 						<img src="../../assets/img/lunbo_05.gif"/> 
-						<a href=""></a>
 					</mt-swipe-item>
 				</mt-swipe>
 
@@ -238,12 +242,17 @@
 		overflow: hidden;
 		position: relative;
 	}
-	
 	.mint-swipe-item>img{
 		width: 100%;
 		height: auto;
 	}
 	.mint-swipe-item>a{
+		position: absolute;
+		width: 100%;
+		padding-bottom: 63%;
+	}
+		
+	.mint-swipe-item>p{
 		color: white;
 		position: absolute;
 		display: block;

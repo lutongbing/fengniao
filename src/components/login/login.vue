@@ -58,6 +58,8 @@
 					this.p="请输入手机/邮箱/用户名"
 				}else if(pwd.value==""){
 					this.p="密码不能为空"
+				}else{
+					this.p=""
 				}
 			}
 		},
