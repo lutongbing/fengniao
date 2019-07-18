@@ -198,11 +198,12 @@
 	    border-bottom: none;
 	}
 	.mint-navbar .mint-tab-item {
+		border-top: 5px solid #14aebd;
 		background-color: #eee;
 	}
 	.nav{
 		width: 100%;
-		background-color:#14aebd;;
+		background-color:#14aebd;
 		position: relative;
 	}
 	.nav_brand{
